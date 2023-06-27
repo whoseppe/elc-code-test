@@ -1,0 +1,82 @@
+/**
+ * This is the central home page
+ *
+ */
+section#home {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0; left: 0;
+    padding: 100px 20px 0;
+    background-image: url('/img/header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    div.content {
+        height: 100%;
+        overflow: auto;
+        padding: 5rem 1rem 0 1rem;
+        max-width: $siteWidth;
+        margin: 0 auto;
+        color: #FFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    div.product-wrapper {
+        background-color: #f7f7f7;
+        max-width: 300px;
+        min-width: 300px;
+        height: 440px;
+        margin: 1.4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        border-radius: 2rem;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+    }
+
+    img.product-image {
+        width: auto;
+        height: 150px;
+    }
+
+    p.product-name {
+        font-weight: bold;
+        margin-top: .6rem;
+        margin-bottom: .5rem;
+        font-size: x-large;
+        letter-spacing: -.08rem;
+    }
+    
+    p.product-about {
+        font-size: small;
+    }
+
+    p.product-price {
+        margin-top: 1rem;
+        font-weight: bold;
+    }
+
+    p.help-text {
+        font-weight: bold;
+        font-size: xx-large;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+    }
+
+    div.help-wrap {
+        padding: 2rem;
+        background-color: #f7f7f7;
+        border-radius: 2rem;
+    }
+}
